@@ -1,9 +1,7 @@
 {
   "name": "typing-app",
   "version": "1.0.0",
-  "description": "typing app",
   "scripts": {
-    "build": "echo 'Building static site' && mkdir -p dist && cp index.html dist/ || exit 0"
-  },
-  "static": true
+    "build": "echo 'Building static site' && mkdir -p public && cp index.html public/ || exit 0"
+  }
 }
